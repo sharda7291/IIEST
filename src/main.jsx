@@ -10,6 +10,7 @@ import RegistraPage from './components/RegistraPage.jsx'
 import SpeakerPage from './components/SpeakerPage.jsx'
 import ScheduleUrl from './components/ScheduleUrl.jsx'
 import ContactPage from './components/ContactPage.jsx'
+import Activities from './components/Activities.jsx'
 
 createRoot(document.getElementById('root')).render(
   <StrictMode>
@@ -24,6 +25,7 @@ createRoot(document.getElementById('root')).render(
         <Route path='/googleform' element={"https://forms.gle/BhSidnHjGHAf6qyC7"}/>
         <Route path='/committee' element={<CommitteePage/>}/>
         <Route path='/contactus' element={<ContactPage/>}/>
+        <Route path='/studentactivities' element={<Activities/>}/>
         
       </Routes>
     </BrowserRouter>
