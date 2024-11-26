@@ -26,7 +26,7 @@ function Header() {
             <li><Link to="/committee">Committee</Link></li>
             <li><Link to="/aboutus">About the Symposium</Link></li>
             <li><Link to="/registration">Registration</Link></li>
-            <li><Link to="/studentactivities">Student Activities</Link></li>
+      
           </ul>
         </nav>
         {/* <div className="mobile-nav-toggle-wrapper d-xl-none" onClick={toggleMenu}>
